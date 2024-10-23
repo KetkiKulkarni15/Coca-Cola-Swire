@@ -1,5 +1,6 @@
 ## Swire Coca-Cola Predictive Maintenance Project
 Capstone Project- Fall 2024
+
 I am currently working on the Coca-Cola Swire Predictive Maintenance Project, focusing on optimizing maintenance operations and minimizing equipment downtime at their manufacturing facilities. I am analyzing machine performance data to identify trends and patterns that are helping predict equipment failures before they occur. By using predictive analytics, I am helping the company develop more efficient maintenance schedules, which are improving operational efficiency, reducing costs, and preventing production interruptions.
 
 ## Business Problem:
@@ -20,8 +21,11 @@ We use a supervised learning approach with a regression model to estimate downti
 ## Scope:
  In Scope: Predictive models, equipment performance dashboard, and optimized spare parts inventory.
 
-## Out of Scope: Analysis of planned maintenance and direct financial savings.
+## Out of Scope: 
+Analysis of planned maintenance and direct financial savings.
 
-## Future Additions: Real-time tracking and sensors for accurate failure detection.
+## Future Additions: 
+Real-time tracking and sensors for accurate failure detection.
 
-## Team Members: Richard Lim, Ketki Kulkarni, Anusha Vivekanand, Vedika Garg.
+## Team Members: 
+Richard Lim, Ketki Kulkarni, Anusha Vivekanand, Vedika Garg.
