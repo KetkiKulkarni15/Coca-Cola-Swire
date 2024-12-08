@@ -1,52 +1,34 @@
-# Swire Coca-Cola Predictive Maintenance Project
-Capstone Project- Fall 2024
-This repository contains the Swire Coca-Cola Predictive Maintenance Project conducted as part of Group 2’s efforts to address the operational inefficiencies caused by unplanned downtime.
 
-## Introduction
-For Swire Coca-Cola, a global leader in the beverage industry, unplanned machine breakdowns represent a $60 million annual loss. This issue impacts production efficiency, targets, and profitability.
+# Swire Coca-Cola Predictive Maintenance Project - Individual Contribution
 
-Our project leverages predictive analytics to identify breakdown patterns, forecast failures, and optimize maintenance schedules. This data-driven approach aims to minimize unplanned downtime, reduce costs, and improve overall production efficiency.
+## Summary of Business Problem and Project Objective
+Swire Coca-Cola faces a significant challenge due to unplanned machine breakdowns, leading to an estimated $60 million in annual losses. The project aimed to predict equipment failures and optimize maintenance schedules using survival analysis and regression modeling techniques. This proactive approach helps minimize downtime, reduce costs, and improve operational efficiency.
 
-## Business Problem
-Swire Coca-Cola operates six manufacturing plants, producing 192 million beverages annually. However, unplanned machine breakdowns have reduced production capacity to 94.4%, causing substantial delays and financial losses. This project focuses on predicting time-to-failure and implementing proactive maintenance strategies to resolve these challenges.
+## Group's Solution to the Business Problem
+Our group utilized survival analysis and regression modeling to address the issue of unplanned downtime. By analyzing machine performance data, we identified failure patterns and predicted time-to-failure for critical equipment. These insights enabled Swire Coca-Cola to schedule maintenance proactively, reducing operational disruptions and financial losses.
 
-## Proposed Solution
-To address the business problem, our team developed a solution combining predictive analytics and survival analysis to anticipate equipment failures and optimize maintenance schedules. Key elements include:
-1. Survival Analysis: Using Kaplan-Meier estimates to calculate time-to-failure probabilities and identify critical equipment requiring immediate attention.
-2. ElasticNet Regression Model: Predicting downtime durations with high accuracy, enabling data-driven decision-making.
-3. Actionable Insights: Recommendations for maintenance prioritization and spare parts management to streamline operations.
+Key Insights from Survival Analysis:
+- Roma (G812): Equipment fails, on average, within 0.47 days.
+- Cota (G816): Average failure time is 0.65 days.
+- Suzuka (G221): Equipment tends to fail after 1.24 days.
+
+Model Performance Highlights:
+- ElasticNet Regression: Test RMSE: 82.27, Test MSE: 6767.92
 
 ## My Contribution to the Project
-While this project was a team effort, my specific contributions were instrumental in shaping its direction and outcomes:
-1. Conducted individual Exploratory Data Analysis (EDA), identifying trends and patterns integrated into the final group analysis.
-2. Performed hyperparameter tuning and cross-validation to enhance the ElasticNet regression model's predictive performance.
-3. Added interpretative comments to clarify modeling outputs and their implications for stakeholders.
-4. Structured the project files, ensuring clarity and ease of understanding for seamless collaboration and presentation.
-5. Bridged the gap between survival analysis and regression modeling to deliver cohesive and actionable insights.
+- Conducted individual exploratory data analysis (EDA), generating insights that were integrated into the final group submission.
+- Performed hyperparameter tuning and cross-validation to optimize model performance and ensure generalizability.
+- Added detailed interpretative comments to the notebook to clearly explain results and their implications.
+- Structured and organized the file to ensure readability and ease of understanding for team members and stakeholders.
 
 ## Business Value of the Solution
-Our project delivers tangible business value by enabling Swire Coca-Cola to:
-1. Reduce unplanned downtime and associated financial losses.
-2. Optimize maintenance schedules to improve production efficiency.
-3. Enhance operational resilience through data-driven decision-making.
-4. Provide a scalable predictive maintenance framework applicable across all manufacturing plants.
+The project provided Swire Coca-Cola with actionable insights to minimize unplanned downtime, streamline operations, and reduce financial losses. Predictive maintenance scheduling empowered the company to enhance production capacity and allocate resources efficiently.
 
 ## Difficulties Encountered
-1. Data Challenges: Cleaning and preprocessing large datasets, addressing missing values, and handling outliers.
-2. Model Optimization: Striking the right balance between bias and variance for robust predictions.
-3. Integration: Aligning survival analysis with regression models to produce a unified solution.
+The team faced challenges in cleaning and preprocessing the data due to missing values and outliers. Integrating diverse insights from multiple group members and achieving optimal model performance through hyperparameter tuning required significant coordination and effort.
 
-## What I Learned
-Through this project, I deepened my understanding of:
-1. Applying survival analysis and advanced regression techniques to solve real-world business problems.
-2. The importance of clear communication and documentation in collaborative projects.
-3. How predictive analytics can transform operational efficiency in the manufacturing industry.
-
-## Future Work
-Building on this foundation, future enhancements could include:
-1. Real-time data collection using IoT sensors for predictive maintenance.
-2. Automation of maintenance workflows to further reduce downtime.
-3. Expanding the analysis to include planned maintenance activities for a comprehensive strategy.
+## What I Learned from the Project
+This project deepened my understanding of predictive analytics, survival analysis, and regression modeling. I gained hands-on experience in data preprocessing, feature engineering, and hyperparameter tuning while working collaboratively with my team to deliver actionable insights for a real-world business problem.
 
 
 
