@@ -1,31 +1,55 @@
-## Swire Coca-Cola Predictive Maintenance Project
+# Swire Coca-Cola Predictive Maintenance Project
 Capstone Project- Fall 2024
+This repository contains the Swire Coca-Cola Predictive Maintenance Project conducted as part of Group 2’s efforts to address the operational inefficiencies caused by unplanned downtime.
 
-I am currently working on the Coca-Cola Swire Predictive Maintenance Project, focusing on optimizing maintenance operations and minimizing equipment downtime at their manufacturing facilities. I am analyzing machine performance data to identify trends and patterns that are helping predict equipment failures before they occur. By using predictive analytics, I am helping the company develop more efficient maintenance schedules, which are improving operational efficiency, reducing costs, and preventing production interruptions.
+## Introduction
+For Swire Coca-Cola, a global leader in the beverage industry, unplanned machine breakdowns represent a $60 million annual loss. This issue impacts production efficiency, targets, and profitability.
 
-## Business Problem:
-Swire Coca-Cola produces 192 million beverages annually across six plants, but unplanned machine breakdowns have reduced production capacity to 94.4%, resulting in a $60 million annual loss. These unpredictable failures cause frequent downtime, affecting output and delaying production.
+Our project leverages predictive analytics to identify breakdown patterns, forecast failures, and optimize maintenance schedules. This data-driven approach aims to minimize unplanned downtime, reduce costs, and improve overall production efficiency.
 
-## Proposed Solution:
-Our team is implementing a predictive maintenance system to forecast equipment failures. This will enable engineers to take proactive measures, reducing downtime, optimizing equipment usage, and improving production capacity. The solution will help mitigate the $60 million annual loss and provide insights into high-risk equipment lines.
+## Business Problem
+Swire Coca-Cola operates six manufacturing plants, producing 192 million beverages annually. However, unplanned machine breakdowns have reduced production capacity to 94.4%, causing substantial delays and financial losses. This project focuses on predicting time-to-failure and implementing proactive maintenance strategies to resolve these challenges.
 
-## Success Metrics:
-1. Increase production capacity to 100%.
-2. Reduce downtime frequency and duration.
-3. Optimize inventory management for faster repairs.
-4. Track production output improvements.
+## Proposed Solution
+To address the business problem, our team developed a solution combining predictive analytics and survival analysis to anticipate equipment failures and optimize maintenance schedules. Key elements include:
 
-## Analytics Approach:
-We use a supervised learning approach with a regression model to estimate downtime durations and predict the impact on production. The key variable is "Downtime Duration," and production efficiency is benchmarked at 1000 cases per hour. This model helps in optimizing maintenance schedules and resource allocation by accurately estimating how long a machine will be out of operation when a failure occurs.
+Survival Analysis: Using Kaplan-Meier estimates to calculate time-to-failure probabilities and identify critical equipment requiring immediate attention.
+ElasticNet Regression Model: Predicting downtime durations with high accuracy, enabling data-driven decision-making.
+Actionable Insights: Recommendations for maintenance prioritization and spare parts management to streamline operations.
 
-## Scope:
- In Scope: Predictive models, equipment performance dashboard, and optimized spare parts inventory.
+## My Contribution to the Project
+While this project was a team effort, my specific contributions were instrumental in shaping its direction and outcomes:
 
-## Out of Scope: 
-Analysis of planned maintenance and direct financial savings.
+Conducted individual Exploratory Data Analysis (EDA), identifying trends and patterns integrated into the final group analysis.
+Performed hyperparameter tuning and cross-validation to enhance the ElasticNet regression model's predictive performance.
+Added interpretative comments to clarify modeling outputs and their implications for stakeholders.
+Structured the project files, ensuring clarity and ease of understanding for seamless collaboration and presentation.
+Bridged the gap between survival analysis and regression modeling to deliver cohesive and actionable insights.
 
-## Future Additions: 
-Real-time tracking and sensors for accurate failure detection.
+## Business Value of the Solution
+Our project delivers tangible business value by enabling Swire Coca-Cola to:
+Reduce unplanned downtime and associated financial losses.
+Optimize maintenance schedules to improve production efficiency.
+Enhance operational resilience through data-driven decision-making.
+Provide a scalable predictive maintenance framework applicable across all manufacturing plants.
 
-## Team Members: 
-Richard Lim, Ketki Kulkarni, Anusha Vivekanand, Vedika Garg.
+## Difficulties Encountered
+Data Challenges: Cleaning and preprocessing large datasets, addressing missing values, and handling outliers.
+Model Optimization: Striking the right balance between bias and variance for robust predictions.
+Integration: Aligning survival analysis with regression models to produce a unified solution.
+
+## What I Learned
+Through this project, I deepened my understanding of:
+Applying survival analysis and advanced regression techniques to solve real-world business problems.
+The importance of clear communication and documentation in collaborative projects.
+How predictive analytics can transform operational efficiency in the manufacturing industry.
+
+## Future Work
+Building on this foundation, future enhancements could include:
+Real-time data collection using IoT sensors for predictive maintenance.
+Automation of maintenance workflows to further reduce downtime.
+Expanding the analysis to include planned maintenance activities for a comprehensive strategy.
+
+
+
+
